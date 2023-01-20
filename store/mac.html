@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac</title>
+</head>
+
+<body>
+
+    <div id="banner1">
+   <!-- append bannner1 Data -->
+    </div>
+
+
+    <div id="banner2">
+         <!-- append bannner1 Data -->
+    </div>
+
+</body>
+
+<script>
+    //  https://63ca6d084f53a0042022a784.mockapi.io/products
+
+    fetch("https://63ca6d084f53a0042022a784.mockapi.io/products")
+        .then((resobj) => {
+            return resobj.json();
+
+        })
+        .then((resobj) => {
+            console.log(resobj);
+            displayBanner(resobj);
+        })
+        .catch((error) => {
+            console.log(error);
+        })
+
+
+    function displayBanner(data) {
+
+        data.forEach(element => {
+            let card = document.createElement("div");
+            let image = document.createElement("img");
+            image.setAttribute("src", element.image)
+
+            let title = document.createElement("h3");
+            title.innerText = element.title;
+            let description = document.createElement("p");
+            description.innerText = element.description;
+            let price = document.createElement("p");
+            price.innerText = element.price;
+            let heart = document.createElement("button")
+            heart.innerText = "Buy";
+
+            for (let i = 1; i <= 9; i++) {
+                if (element.id == i) {
+                    console.log(element);
+                    
+                    card.append(title, image,description,price,heart);
+                    banner1.append(card);
+                }
+            }
+             
+            for(let i=10;i<=16;i++){
+            if(element.id==i){
+                console.log(element);
+    
+                card.append(title,image,description,price);
+                banner2.append(card);
+            }     
+        }
+        });
+    }    
+</script>
+
+</html>
