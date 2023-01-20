@@ -1,0 +1,149 @@
+
+
+.body{
+    background-color: #F1F8E9;
+    padding-left: 200px;
+}
+
+.B1 {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+
+.B1-2 {
+    display: flex;
+}
+
+#b1 {
+    display: flex;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+
+.rs-shop-subheader,.rs-shop-sub {
+    color: #6e6e73;
+}
+
+.rs-shop-header,
+.rs-shop-subheader {
+    font-size: 45px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: inline;
+    
+}
+.rs-shop-h,
+.rs-shop-sub{
+    font-size: 30px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: inline;
+
+}
+
+.B1>div img {
+    width: 100%;
+    height: auto;
+}
+
+.B1-1 {
+    background-color: #F1F8E9;
+    margin-top: 50px;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; } 
+
+.carousel {
+   justify-content: space-around;
+   background-color: #F1F8E9;
+   margin-top:30px;
+   margin-bottom:50px;
+ } 
+
+.carousel-cell {
+  width: 30%;
+  height: 500px;
+  margin-right: 10px;
+
+  
+}
+.carousel-cell:before {
+  display: block;
+  font-size: 80px;
+ color: white;
+ 
+}
+.latest-card-top{
+    scroll-snap-align:start;
+    border-radius: 15px;
+    min-width:330px;
+    height: 500px;
+    color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px 25px;
+}
+.lates-card-top p{
+    font-size: 14px;
+}
+.latest-card-top:nth-child(3),.latest-card-top:nth-child(8){
+    color:black;
+}
+
+.B3{
+    display: flex;
+    margin-left: 10px;
+    gap:20px;
+    margin-top: 25px;
+}
+.B3 img{
+    border-radius: 20px;
+}
+.B3-1{
+    margin-top: 15px;
+    position: relative;
+}
+
+.carousel {
+    justify-content: space-around;
+    background-color: #F1F8E9;
+    margin-top:30px;
+    margin-bottom:50px;
+  } 
+ 
+ .carousel-c {
+   width: 30%;
+   height: 200px;
+   margin-right: 10px;
+ 
+   
+ }
+ .carousel-cell:before {
+   display: block;
+   font-size: 80px;
+  color: white;
+  
+ }
+ .latest-card{
+     scroll-snap-align:start;
+     border-radius: 15px;
+     min-width:320px;
+     height: 200px;
+     color:black;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     padding: 15px 25px;
+ }
+ .latest-card p{
+     font-size: 20px;
+     color: black;
+ }
