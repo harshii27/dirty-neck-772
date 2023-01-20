@@ -14,9 +14,22 @@
     justify-content: space-evenly;
 }
 
+@media screen and (min-width:600px) and (max-width:800px) {
+    #category-section {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media screen and (min-width:200px) and (max-width:599px) {
+    #category-section {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
 #category-section div a {
     text-decoration: none;
 }
+
 #category-section div a img {
     width: 60%;
 }
@@ -52,9 +65,14 @@
 
 #info_for_more div a h4 {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    ;
-}
 
+}
+@media screen and (min-width:300px) and (max-width:950px) {
+    #info_for_more {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 /* update part               update part                           update part*/
 
 #updateHead h1 {
@@ -86,7 +104,12 @@
     padding-top: 50px;
     padding-bottom: 4%;
 }
-
+@media screen and (min-width:300px) and (max-width:950px) {
+    #update {
+        display: block;
+        
+    }
+}
 #update div img {
     width: 400px;
     height: auto;
@@ -143,128 +166,141 @@
     font-weight: 500;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+
 /* Apple Care           Apple Care                   Apple Care */
 
-#care{
+#care {
     display: flex;
     margin: auto;
     width: 70%;
     padding-top: 3%;
 }
-#care div img{
+
+#care div img {
     width: 100%;
     margin-top: 25px;
 }
-#care div h1{
+
+#care div h1 {
     font-size: 34px;
     line-height: 1.0882352941;
     font-weight: 500;
     letter-spacing: .01em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-#care div p{
+
+#care div p {
     font-size: 20px;
     line-height: 1.5;
     font-weight: 300;
     letter-spacing: .017em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-#care div a{
+
+#care div a {
     color: #0070c9;
     text-decoration: none;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 300;
     letter-spacing: .017em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /* Apple care              Apple care                  Apple care  */
-hr{
+hr {
     margin-top: 3%;
 }
-#support{
+
+#support {
     display: flex;
     margin: auto;
     width: 60%;
     padding-top: 3%;
 }
 
-#support div h1{
+#support div h1 {
     font-size: 34px;
     line-height: 1.0882352941;
     font-weight: 500;
     letter-spacing: .01em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-#support div p{
+
+#support div p {
     font-size: 20px;
     line-height: 1.5;
     font-weight: 300;
     letter-spacing: .017em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-#support div a{
+
+#support div a {
     color: #0070c9;
     text-decoration: none;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 300;
     letter-spacing: .017em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-#support div img{
+
+#support div img {
     width: 100%;
     margin-top: 25px;
 }
 
 /* awareness                       awareness                    awareness */
 
-#awareness{
+#awareness {
     width: 60%;
     text-align: center;
     margin: auto;
 }
 
-#awareness p{
+#awareness p {
     font-size: 17px;
     line-height: 1.5294717647;
     font-weight: 400;
     letter-spacing: -0.021em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     background-color: white;
     color: #333;
     font-style: normal;
 }
-#awareness p a{
+
+#awareness p a {
     color: #0070c9;
     text-decoration: none;
 }
-#awareness h2{
+
+#awareness h2 {
     font-size: 34px;
     line-height: 1.0882352941;
     font-weight: 500;
     letter-spacing: .01em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-#more_service{
-   margin-left: 20%;
+#more_service {
+    margin-left: 20%;
     text-align: left;
 }
-#more_service a{
+
+#more_service a {
     color: #0070c9;
     text-decoration: none;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 300;
     letter-spacing: .017em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-#more_service h2{
+
+#more_service h2 {
     font-size: 34px;
     line-height: 1.0882352941;
     font-weight: 500;
     letter-spacing: .01em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
