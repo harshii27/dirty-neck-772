@@ -12,7 +12,7 @@
     event.preventDefault();
 
     // Check that all fields are filled out
-    if (!cardNumber.value || !expirationMonth.value || !cvv.value ||!namecard||!year) {
+    if (!cardNumber.value && !expirationMonth.value && !cvv.value && !namecard) {
       alert("Please fill out all fields.");
       return;
     }
