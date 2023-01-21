@@ -1,0 +1,132 @@
+#h{
+    width:68%;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-around;
+    background-color: #070707;
+    margin-left: 15%;
+
+}
+#ha{
+    width: 30px;
+    height: 30px;
+    border: 0px solid red;
+}
+#q{
+    color: rgba(29,29,31);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20.5883px;
+    vertical-align: baseline;
+    letter-spacing:normal;
+    font-weight: 400px;
+    text-decoration: none solid rgba(7,12,20,0.82);
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+.first{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    margin-bottom: -200px;
+}
+#ul_table{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    text-align: left;
+
+}
+#ul_table>div>ul{
+ color: black;
+ margin-top: -5px;
+}
+/* 
+#third{
+    margin-right: 20%;
+} */
+
+#ul_table>div>ul>a{
+    text-decoration: none;
+    /* text-align:end; */
+    color:rgb(110,110,115);
+
+
+}
+
+   #ul_table>div>ul:hover{
+    /* border-bottom: 1px solid black; */
+    text-decoration: underline;
+    
+   }
+
+   #main{
+    width: 75%;
+    /* margin-c: 10%; */
+    margin: auto;
+
+   
+   }
+
+   body{
+    background-color: #f5f5f7;
+   }
+
+   p{
+    color: #939397;
+    font-size: 15px;
+   }
+
+   #link{
+    color:#6c7378;
+    text-decoration: none;
+    /* text-decoration: underline; */
+   }
+
+   a{
+    color:rgb(110,110,115);
+    font-size: 13px;
+    font-weight: 400; 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+   } 
+
+  #last{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: -10px; */
+    /* margin-left: -10%; */
+    padding: auto;
+  }
+   
+  #last>div>a{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    text-decoration: none;
+    color:rgb(110,110,115);
+    /* font-size: 13px; */
+    /* font-weight: 400; */
+    margin-top: 10px;
+  }
+  
+  h5{
+    color: #4d4d4f;
+    /* text-align: left; */
+    margin-left: 40px;
+    margin-bottom: 15px;
+  }
+ .ht{
+    background-color: black;
+ }
+ .img{
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    margin-top: 100px;
+ }
