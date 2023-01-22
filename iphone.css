@@ -14,6 +14,90 @@ body {
     padding: 0px;
     box-sizing: border-box;
 }
+#navPart {
+    position: sticky;
+    top: 0;
+}
+
+header {
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    height: 50px;
+}
+
+#logo {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 8px;
+    left: 12%;
+    float: left;
+    margin-top: 1px;
+}
+
+#logo:hover {
+    cursor: pointer;
+    opacity: .6;
+    transition: .3s;
+}
+
+nav {
+    position: absolute;
+    left: 19%;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f5f5f7;
+    margin-right: 65px;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+
+nav a:hover {
+    opacity: .5;
+    transition: .3s;
+}
+
+.right {
+    float: right;
+}
+
+#search {
+    position: absolute;
+    right: 244px;
+    margin-top: 7px;
+    color: white;
+    font-weight: normal;
+}
+
+#search:hover {
+    opacity: .5;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#lock {
+    color: white;
+    margin-top: 6px;
+    margin-right: -3px;
+}
+
+#lock:hover {
+    opacity: .5;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.banner {
+    background: url("http://mateen.kurdzman.net/ban.png") no-repeat;
+    width: 100%;
+    height: 585px;
+    background-position: center;
+    background-size: cover;
+}
 
 
 #topmost {
@@ -1102,12 +1186,13 @@ a {
 }
 
 .btn {
+    border: 0px;
     text-decoration: none;
     background-color: #0071e3;
     color: white;
-    border-radius: 50%;
-    width: 25%;
-    height: 10%;
+    border-radius: 20%;
+    width: 22%;
+    height: 9%;
     margin-top: 10px;
 
 }
