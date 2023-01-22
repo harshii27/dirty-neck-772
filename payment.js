@@ -1,5 +1,5 @@
 document.querySelector(".submit-btn").addEventListener("click",function(){
-  location.href = "http://127.0.0.1:5502/paymeent/thankyou.html"
+  location.href = "http://127.0.0.1:5502/thankyou.html"
 })
 var form = document.getElementById("payment-form")
 var cardNumber = document.getElementById("card-number");

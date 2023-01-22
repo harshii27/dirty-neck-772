@@ -102,7 +102,7 @@ function append() {
     btn.setAttribute("class", "remove");
     btn.onclick = () => {
       remove(el.id);
-      href="http://127.0.0.1:5502/paymeent/payment.html"
+      href="./payment.html"
     };
 
     div.append(image, title, description,price, btn);
