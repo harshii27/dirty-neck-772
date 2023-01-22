@@ -1,4 +1,6 @@
-
+document.querySelector(".submit-btn").addEventListener("click",function(){
+  location.href = "http://127.0.0.1:5502/paymeent/thankyou.html"
+})
 var form = document.getElementById("payment-form")
 var cardNumber = document.getElementById("card-number");
 
@@ -7,6 +9,7 @@ var billingZip = document.getElementById("billing-zip");
 var year = document.getElementById("Year")
 var namecard = document.getElementById("Name")
 var btn = document.getElementsByClassName("submit-btn")
+
 
 form.addEventListener("submit", function (event) {
   // Prevent the form from being submitted
@@ -37,10 +40,10 @@ form.addEventListener("submit", function (event) {
 });
 
 function isValidCardNumber(cardNumber) {
-     console.log(cardNumber)
+     
 
   // Check that the card number is at least 12 digits long
-  if (cardNumber == 16) {
+  if (cardNumber <= 16) {
     return false;
   } else {
     var sum = 0;
