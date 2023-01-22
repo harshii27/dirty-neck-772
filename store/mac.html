@@ -53,7 +53,23 @@
             price.innerText = element.price;
             let heart = document.createElement("button")
             heart.innerText = "Buy";
-
+            heart.setAttribute("class","add to cart")
+            heart.onclick=()=>{
+                addToCart(element);
+                alert("product added to cart")
+                href="http://127.0.0.1:5502/cart1.html"
+            };
+            function addToCart(element){
+                let data = JSON.parse(localStorage.getItem("items"))||[]
+                data.push(element);
+                localStorage.setItem("items",JSON.stringify(data));
+                cart_count()
+            }
+            function cart_count(){
+                let data=JSON.parse(localStorage.getItem("items"))||[];
+                let c= document.getElementById("item_count");
+                c.innerText=data.length
+            }
             for (let i = 1; i <= 9; i++) {
                 if (element.id == i) {
                     console.log(element);
