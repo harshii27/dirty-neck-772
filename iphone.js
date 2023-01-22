@@ -50,7 +50,7 @@ function display(data) {
         let description = document.createElement("p")
         description.innerText = element.description
         let price = document.createElement("h4")
-        price.innerText = "$ " + element.price
+        price.innerText = "Rs. " + element.price
 
         let btn = document.createElement("button")
         btn.innerText = element.buy
